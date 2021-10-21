@@ -107,6 +107,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Form1.aspx" />
+    <Content Include="FormforNewBranch.aspx" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Web.config" />
@@ -118,6 +119,13 @@
     </Compile>
     <Compile Include="Form1.aspx.designer.cs">
       <DependentUpon>Form1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormforNewBranch.aspx.cs">
+      <DependentUpon>FormforNewBranch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormforNewBranch.aspx.designer.cs">
+      <DependentUpon>FormforNewBranch.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
